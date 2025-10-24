@@ -53,5 +53,5 @@ En este nuevo menu se dan las opciones que puede hacer el animal en especifico a
 Este proyecto es de código abierto y está disponible para el uso publico
 
 Autor: Diego Armando Pérez Solano
-Fecha de creación: 16 de octubre de 2025
-Nombre del proyecto: Prueba de firebase
+Fecha de creación: 23 de octubre de 2025
+Nombre del proyecto: Herencia y polimorfia
