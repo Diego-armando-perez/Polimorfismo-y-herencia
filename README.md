@@ -8,6 +8,7 @@ El repositorio contiene 1 carpeta que cuenta con 7 archivos, 5 de estos son para
 🖋️ Contenido
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Existen 7 archivos, 2 de funcionamiento y 5 de datos 
+
 <img width="431" height="368" alt="image" src="https://github.com/user-attachments/assets/8ce25ea4-572f-4c95-9985-fac27c6714dd" />
 <img width="1528" height="783" alt="image" src="https://github.com/user-attachments/assets/5151827b-d389-4f35-81c0-8c5589ecf0a8" />
 
