@@ -16,44 +16,37 @@ Existen 7 archivos, 2 de funcionamiento y 5 de datos
 🛠️ Tecnologías Utilizadas
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Visual studio code
+
 Python 3.15
 
 🔧 Configuración y Instalación
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-No es posible usar el archivo original, pero si se le aplica un archivo propio de firebase entonces el programa correra perfectamente en su computador, para hacerlo funcionar porfavor descarge el archivo y dirigase a data alli encontrara dos cosas importantes, cred y databaseURL, con estos dos porfavor remplaze el directorio que aparece en cred con el que usted tenga su clave privada y databaseURL con el link de su projecto, como no es posible otorgar el acceso sin riesgo a los archivos que fueron usados por mi estas dos cosas deben ser cambiadas por informacion propia del usuario, una vez hecho esto tambien asegurese de instalar con pip, firebase-admin y firebase, despues de todos estos pasos le deberia de ser posible observar los valores cambiando y registrandose en su pagina de servidor de firebase cuando el programa se ejecute
+No es necesario tener ningun tipo de libreria extra todos los archivos funcionan perfectamente asi que solo se necesita descargar la carpeta, abrir main y ejecutarlo
 
 🔧 Uso de la aplicacion
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Descarge todas las carpetas y cambie la informacion mencionada en la seccion de configuracion, una vez hecho esto corra el codigo del main y compruebe con firebase, vera que cuando se corra el main primero se creara un estudiante en forma de objeto 
+Una vez descargados los archivos abra main y ejecutelo, esto va a iniciar el archivo de "visual y opciones" y va a saltar el siguiente menu
 
-<img width="340" height="65" alt="image" src="https://github.com/user-attachments/assets/f74f2737-83b5-4e8c-9046-9d3b81cfd820" />
+<img width="1090" height="167" alt="image" src="https://github.com/user-attachments/assets/480b224e-e552-4554-be85-cb705822493b" />
 
-Este estudiante preguntara por un nombre y una edad
+Que se tiene en este menu? se tienen las opciones de los animales, con la logica del ejercicio principal cada animal es una clase dentro de otro archivo como se puede ver aqui
 
-<img width="356" height="81" alt="image" src="https://github.com/user-attachments/assets/0f68d2aa-2bed-40a8-8758-5e384ea2873e" />
+<img width="302" height="223" alt="image" src="https://github.com/user-attachments/assets/0a8bca67-4513-4bf5-87d9-69ab9da88cc8" />
 
-Y una vez ingresados generara un carnet el cual contendra una secuencia aleatoria de 10 numeros. Ahora aqui viene lo especial de firebase
-Lo primero que se hara con el programa es el crear un dato bajo el directorio estudiantes donde la informacion del alumno se guardara
+Y cada animal hereda una superclase que se puede ver en la imagen "Animal" 
 
-<img width="459" height="284" alt="image" src="https://github.com/user-attachments/assets/59d8dcbc-077b-4d4e-bdc5-abc0c7e04c95" />
+<img width="747" height="616" alt="image" src="https://github.com/user-attachments/assets/212301dd-a5a9-4892-beb8-88708aff3512" />
 
-Aqui se hara uso de la primera funcion que nos otorga firebase la cual es la de creación, pero al mismo tiempo se uso la de cambio, lo que ocurre esque en la secuencia que da el main el programa crea al estudiante pero tambien le cambia su carnet esto es observable por medio de la consola y codigo
+En el menu del principio se dan 4 opciones para los cuatro animales, si se selecciona una opcion que no existe el programa simplemente se termina.
+En fin, al elegir una opcion de cualquier animal se va a crear un objeto del animal especifico y se pedira llenar el nombre y habitat del animal (para el perro es dueño, no habitat)
 
-<img width="498" height="145" alt="image" src="https://github.com/user-attachments/assets/0518b4a5-3ca0-45d6-9e4c-6df53bf96897" />
-<img width="313" height="85" alt="image" src="https://github.com/user-attachments/assets/af0b8c46-3085-4bfe-86ba-314f616e70f7" />
+<img width="434" height="135" alt="image" src="https://github.com/user-attachments/assets/b6fe031c-f70c-4171-8393-a61e49085e4f" />
 
-Como se puede ver, aqui hay dos valores de carnets, uno que fue con el que se empezo y creo el alumno y el segundo que es el carnet nuevo despues de haberlo cambiado, cuando uno se devuelve a la imagen de firebase se puede observar como se esta leyendo el segundo valor del carnet y esto es porque como dije antes se cambio el valor del carnet abandonado el viejo valor.
+Una vez el objeto este completamente creado, se mostrara otro menu
 
-Siguiendo con el codigo lo siguiente es la funcionalidad de leer la cual unicamente muestra los valores en secuencia de diccionario que contiene el estudiante
+<img width="1076" height="262" alt="image" src="https://github.com/user-attachments/assets/36994aae-a6e1-4ac5-b0fd-227fbe39877e" />
 
-<img width="658" height="56" alt="image" src="https://github.com/user-attachments/assets/2102a922-f894-4308-aefa-836d66605c92" />
-
-Lo especial en esta lectura es que es hecha desde la base de datos de firebase, no desde python.
-
-Finalmente con la ultima funcion, se elimina el estudiante seleccionado y se imprime un mensaje que confirma la accion
-<img width="646" height="62" alt="image" src="https://github.com/user-attachments/assets/eb4b90b1-77f4-443f-adcf-c05c57f72489" />
-<img width="465" height="258" alt="image" src="https://github.com/user-attachments/assets/78a0b164-40bc-460a-b896-239cbd776f6b" />
-
+En este nuevo menu se dan las opciones que puede hacer el animal en especifico ademas de una extra para soltar el animal y terminar el programa
 
 📄 Licencia
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
